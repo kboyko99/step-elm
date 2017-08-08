@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url('../../img/logo.png') no-repeat fixed 50% 50%;
+    background-size: 28%;
+}
+.hidden{
+    display: none;
+}
+.dialog {
+    position: fixed;
+    width: 35vw;
+    min-height: 40vh;
+    top: 30vh;
+    left: 32.5vw;
+    background-color: #444444;
+    height: auto;
+}
+form{
+    padding: 8% 2%;
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    width: auto;
+    margin: 3% 5%;
+    padding: 2%;
+    font-size: 25px;
+}
+input[type=submit] {
+    text-transform: uppercase;
+    background-color: #222;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 0.2s;
+    padding: 3% 0;
+}
+input[type=submit]:hover{
+    background-color: #111111;
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+.dialogOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh
+}
+
+button, button:focus {
+    display: block;
+    width: 13vw;
+    margin: 2vh auto;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    padding: 1%;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}

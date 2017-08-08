@@ -1,0 +1,17 @@
+{
+  "name": "e4",
+  "version": "1.0.0",
+  "description": "backend for e4 project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kate Boyko kboyko1999@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7",
+    "winston": "^2.3.1"
+  }
+}
